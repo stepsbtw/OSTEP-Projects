@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+// fopen("arquivo", "modo/oque fazer");
+// r = read , w = write
 int main(){
     FILE *arquivo = fopen("documento.csv", "r");
     if(!arquivo){
